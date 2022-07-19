@@ -19,7 +19,7 @@ function generateRandomNumber(num) {
     // use the object's properties to customize the message being added to personalWisdom
     switch(prop) {
       case 'signInfo':
-        personalWisdom.push(`Your lucky planet is: "${collectiveWisdom[prop][optionIdx]}".`)
+        personalWisdom.push(`Your today's lucky planet is: "${collectiveWisdom[prop][optionIdx]}".`)
         break
       case 'fortuneOutput':
         personalWisdom.push(`Tomorrow is your: "${collectiveWisdom[prop][optionIdx]}".`)
